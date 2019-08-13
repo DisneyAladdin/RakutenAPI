@@ -1,4 +1,4 @@
-# rakuten_api_renewal
+# Rakuten Item search API -renewal version-
 You can get item information by Rakuten Ichiba item search API
 ```
 python3 r_api.py [shopURL]
