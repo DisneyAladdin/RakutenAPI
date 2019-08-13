@@ -20,7 +20,7 @@ shopName = args[1]
 counter = 0
 url = 'https://app.rakuten.co.jp/services/api/IchibaItem/Search/20170706'
 payload = {
-	'applicationId': 1083846857904110280,
+	'applicationId': applicationID here,
 	'hits': 30,
 	'shopCode':shopName,
 	'page':1,
@@ -50,7 +50,7 @@ a.write('JAN,NAME,PRICE,URL\n')
 for i in range(1,Max+1):
     url = 'https://app.rakuten.co.jp/services/api/IchibaItem/Search/20170706'
     payload = {
-        'applicationId': 1083846857904110280,
+        'applicationId': applicationID here,
         'hits': 30,
         'shopCode':shopName,
         'page':i,
